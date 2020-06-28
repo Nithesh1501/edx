@@ -1,0 +1,160 @@
+ul {
+  font-size: 16px;
+  color: white;
+}
+
+ol {
+  font-size: 16px;
+  color: white;
+}
+
+.point {
+  font-size: 18px;
+}
+.point ol {
+  color: white;
+}
+.point ul {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Graduate", cursive;
+  color: white;
+  font-size: 45px;
+}
+
+body {
+  font-family: "Merienda", cursive;
+  font-size: 18px;
+  color: white;
+  background-image: url("equipb.png");
+}
+
+#num {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.para {
+  color: white;
+  white-space: normal;
+  text-align: left;
+  word-spacing: 2px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.para {
+  margin-bottom: 20px;
+}
+
+.point {
+  margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+  color: white;
+  font-size: 13px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #008000;
+  font-size: 13px;
+  margin: 2px;
+  transition-duration: 1.5s;
+  cursor: pointer;
+  background-color: #008000;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1129px) {
+  .image1 {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 70%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1128px) {
+  .image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 960px) {
+  .image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .button {
+    display: block;
+    border: none;
+    color: white;
+    font-size: 13px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #008000;
+    font-size: 13px;
+    margin: 2px;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    background-color: #008000;
+  }
+
+  .button:hover {
+    background-color: black;
+  }
+
+  #num {
+    margin-top: 150px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=page3.css.map */

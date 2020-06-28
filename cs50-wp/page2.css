@@ -1,0 +1,136 @@
+h1
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+font-family: 'Graduate', cursive;
+	color: white;
+}
+h2
+{
+	text-align: center;
+	font-weight: bold;
+font-family: 'Graduate', cursive;
+	font-size: 30px;
+	color:  #12343b;
+}
+body {
+  font-family: 'Merienda', cursive;
+  font-size: 18px;
+  background-image: url("historyb.jpg")
+}
+#num
+{
+font-size: 20px;
+text-align: center;
+color:#12343b;
+}
+.p1
+{
+  color: #12343b;
+  white-space: normal;
+  text-align: justify;
+  word-spacing: 2px;
+  text-justify: inter-word;
+  padding-left: 5%;
+  padding-right: 5%
+}
+.p2
+{
+  color: #12343b;
+  text-align: justify;
+  white-space: normal;
+  text-align: justify;
+  word-spacing: 2px;
+  text-justify: inter-word;
+  padding-left: 5%;
+  padding-right: 5%
+}
+.button {
+  border: none;
+  color:#12343b;
+  font-size: 13px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color:#F0E68C;
+  font-size: 13px;
+  margin: 2px;
+  transition-duration: 1.5s;
+  cursor: pointer;
+  background-color:#F0E68C;
+}
+.button:hover 
+{
+background-color: orange;
+}
+.flex-container {
+  display: flex;
+  height: 80%;
+  width : 100%;
+  justify-content: center;
+  align-items: center;
+}
+ @media (min-width: 1129px) {
+.image1
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+}
+
+@media (max-width: 1128px) {
+.image1
+{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  width : 100%
+}
+}
+@media (max-width: 960px) {
+.image1
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   height: 80%;
+  width : 80%;
+}
+@media (max-width:450px)
+{
+.button 
+{
+  display: block;
+  border: none;
+  color:#12343b;
+  font-size: 13px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color:#F0E68C;
+  font-size: 13px;
+  margin: 2px;
+  transition-duration: 1.5s;
+  cursor: pointer;
+  background-color:#F0E68C;
+}
+.button:hover 
+{
+background-color: orange;
+}
+.image1
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width : 100%;
+}
+}
+
